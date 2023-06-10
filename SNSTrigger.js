@@ -15,4 +15,6 @@ exports.lambdaHandler = async (event, context) => {
   .promise()
   .then(data => console.log(data.Item))
   .catch(console.error)
+    
+    return 0;
 };
